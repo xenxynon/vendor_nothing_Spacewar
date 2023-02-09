@@ -219,6 +219,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/nothing/Spacewar/proprietary/system_ext/lib/libavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libavenhancements.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib/libcamxextension_algo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libcamxextension_algo.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib/libencoderjpeg_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libencoderjpeg_jni.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmosal.so \
@@ -250,6 +251,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
+    vendor/nothing/Spacewar/proprietary/system_ext/lib64/libavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libavenhancements.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libcamxextension_algo.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcamxextension_algo.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
     vendor/nothing/Spacewar/proprietary/system_ext/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmctmgr.so \
