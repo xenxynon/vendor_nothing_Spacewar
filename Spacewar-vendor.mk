@@ -1569,6 +1569,7 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
     DiracAudioControlService \
+    NothingDiracService \
     CACertService \
     CneApp \
     IWlanService \
