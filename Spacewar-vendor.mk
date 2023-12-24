@@ -492,68 +492,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql \
     vendor/nothing/Spacewar/proprietary/vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql \
     vendor/nothing/Spacewar/proprietary/vendor/etc/qdcm_calib_data_rm692e5_amoled_fhd+_120hz_cmd_mode_dsi_visionox_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_rm692e5_amoled_fhd+_120hz_cmd_mode_dsi_visionox_panel.xml \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_OnOff_button.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_OnOff_button.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_camera_photo.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_camera_photo.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_camera_zoom.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_camera_zoom.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_charge.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_charge.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_letters_navi.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_letters_navi.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_unlock_error.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_unlock_error.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/NT_unlock_successful.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/NT_unlock_successful.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/bedside.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/bedside.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/coil.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/coil.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/frogs.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/frogs.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/incoming.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/incoming.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/kashio.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/kashio.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/munge.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/munge.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/nothing.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/nothing.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/prong.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/prong.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/ramble.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/ramble.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/alarm/transmission.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/alarm/transmission.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/common_notification1.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/common_notification1.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/common_notification2.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/common_notification2.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/common_ringtone1.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/common_ringtone1.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/common_ringtone2.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/common_ringtone2.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/beak.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/beak.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/bulb_one.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/bulb_one.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/bulb_two.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/bulb_two.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/cough.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/cough.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/fox.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/fox.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/gamma.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/gamma.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/gargle.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/gargle.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/guiro.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/guiro.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/isolator.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/isolator.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/nope.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/nope.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/oi!.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/oi!.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/pep.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/pep.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/simmer.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/simmer.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/skim.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/skim.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/squiggle.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/squiggle.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/volley.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/volley.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/why.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/why.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/woo.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/woo.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/yeh.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/yeh.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/notification/zip.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/notification/zip.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/abra.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/abra.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/beetle.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/beetle.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/bug.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/bug.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/burrow.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/burrow.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/coded.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/coded.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/flutter.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/flutter.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/forever.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/forever.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/karha.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/karha.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/latency.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/latency.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/molitor.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/molitor.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/pepelu.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/pepelu.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/pet.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/pet.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/plot.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/plot.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/pneumatic.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/pneumatic.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/radiate.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/radiate.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/scribble.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/scribble.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/snaps.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/snaps.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/squirrels.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/squirrels.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/tennis.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/tennis.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/woo_yeh.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/woo_yeh.he \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/richtapresources/ringtone/wow!.he:$(TARGET_COPY_OUT_VENDOR)/etc/richtapresources/ringtone/wow!.he \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/nothing/Spacewar/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
