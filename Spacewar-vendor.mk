@@ -114,6 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/init/tcmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/tcmd.rc \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
+    vendor/nothing/Spacewar/proprietary/system_ext/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
@@ -212,6 +213,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/nothing/Spacewar/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
@@ -933,23 +935,36 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
+    libPlaneSegmentationWrapper \
     libQTEEConnector_listener \
     libQTEEConnector_vendor \
     libSonyIMX471RmscLibrary \
     libaidenoiser \
     libaidenoiserv2 \
     libaoa \
+    libarcsoft_aiscenedetection \
+    libarcsoft_beautyshot \
+    libarcsoft_dark_vision_raw \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_video \
+    libarcsoft_faceid \
     libarcsoft_hdr_detection \
     libarcsoft_high_dynamic_range \
+    libarcsoft_low_light_hdr \
+    libarcsoft_mf_superresolution \
     libarcsoft_night_video \
+    libarcsoft_portrait_distortion_correction \
+    libarcsoft_portrait_super_night_raw \
     libarcsoft_singlecam_bokeh \
+    libarcsoft_super_night_raw \
+    libarcsoft_superportrait \
+    libarcsoft_watermark \
     libbitmlengine \
     libbitmlenginev2 \
     libcacertclient \
     libcamera_nn_stub \
     libcamerapostproc \
+    libcamxextension_night \
     libcamxfacialfeatures \
     libcamxfdalgo \
     libcamxfdengine \
@@ -978,13 +993,17 @@ PRODUCT_PACKAGES += \
     libdpps \
     libdrmfs \
     libdrmtime \
+    libeepromcutter \
     libesepmconfig \
     libgarden \
     libgarden_haltests_e2e \
     libgdtap \
     libgf_hal \
     libgnsspps \
+    libhdr_stub \
     libhdr_tm \
+    libhdrdynamic \
+    libhdrdynamicootf \
     libipebpsstriping \
     libipebpsstriping170 \
     libizat_client_api \
@@ -1001,6 +1020,7 @@ PRODUCT_PACKAGES += \
     liblowi_wifihal \
     liblqe \
     libmctfengine_stub \
+    libmfec \
     libmm-hdcpmgr \
     libmmcamera_bestats \
     libmmcamera_cac3 \
@@ -1011,6 +1031,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_mfnr_t4 \
     libmmcamera_pdpc \
     libmorpho_MotionSensor \
+    libmouth_mask_detection.arcsoft \
     libmpbase \
     libnanopb \
     libnetmgr_common \
@@ -1237,6 +1258,7 @@ PRODUCT_PACKAGES += \
     libvpp_ais_networks \
     libvpt_action_recognition \
     libavenhancements \
+    libencoderjpeg_jni \
     libmmosal \
     libmmparser_lite \
     libmmrtpdecoder \
@@ -1294,6 +1316,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     WfdCommon \
     tcmclient \
+    androidx.camera.extensions.impl.advanced \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
     dpmapi \
