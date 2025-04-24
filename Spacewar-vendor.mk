@@ -753,7 +753,6 @@ PRODUCT_PACKAGES += \
     libFileMux_proprietary \
     lib_lvacfs \
     libcppf \
-    libdirac \
     liblvacfs_wrapper \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
@@ -776,7 +775,6 @@ PRODUCT_PACKAGES += \
     libwfduibcsrcinterface_proprietary \
     libwfdutils_proprietary \
     libasphere \
-    libdiraceffect_NT \
     libshoebox \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     com.qti.eeprom.abra_qtech_p24c128e_imx766_eeprom \
