@@ -761,7 +761,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.3 \
     vendor.qti.hardware.vpp@2.0 \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
-    vendor.qti.qspmhal@1.0 \
+    vendor.qti.qspmhal@1.0_vendor \
     libFileMux_proprietary \
     lib_lvacfs \
     libcppf \
@@ -914,6 +914,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
+    vendor.qti.hardware.servicetrackeraidl-impl \
     vendor.qti.hardware.soter@1.0-impl \
     lib-imscommon \
     lib-imsdpl \
@@ -1193,7 +1194,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.iop@2.0_vendor \
-    vendor.qti.hardware.limits@1.0 \
+    vendor.qti.hardware.limits@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.perf2-V1-ndk_vendor \
     vendor.qti.hardware.perf@2.0_vendor \
@@ -1305,6 +1306,8 @@ PRODUCT_PACKAGES += \
     libcomposerextn.qti \
     libdolphin \
     libencoderjpeg_jni \
+    libjpegdecoder_ext \
+    libjpegencoder_ext \
     liblayerext.qti \
     libpenguin \
     libpenguin_impl \
