@@ -727,6 +727,7 @@ PRODUCT_PACKAGES += \
     libqmi_legacy \
     libqmiservices \
     libqrtr \
+    libqti-perfd-client \
     libqtikeymaster4 \
     libscveCommon \
     libscveCommon_stub \
@@ -1087,7 +1088,6 @@ PRODUCT_PACKAGES += \
     libqspm-mem-utils-vendor \
     libqti-iopd-client \
     libqti-iopd \
-    libqti-perfd-client \
     libqti-perfd \
     libqti-qesdk-secure \
     libqti-util \
@@ -1197,10 +1197,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.limits@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.perf2-V1-ndk_vendor \
-    vendor.qti.hardware.perf@2.0_vendor \
-    vendor.qti.hardware.perf@2.1_vendor \
-    vendor.qti.hardware.perf@2.2_vendor \
-    vendor.qti.hardware.perf@2.3_vendor \
     vendor.qti.hardware.power.powermodule-V1-ndk \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
@@ -1325,10 +1321,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.limits@1.0 \
     vendor.qti.hardware.limits@1.1 \
-    vendor.qti.hardware.perf@2.0 \
-    vendor.qti.hardware.perf@2.1 \
-    vendor.qti.hardware.perf@2.2 \
-    vendor.qti.hardware.perf@2.3 \
     vendor.qti.qspmhal-V1-ndk \
     vendor.qti.qspmhal@1.0 \
     com.qualcomm.qti.dpm.api@1.0 \
